@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill {
+  background-image: url("Statue of Liberty.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.empty {
+  height: 30rem;
+  width: 20rem;
+  margin: 1rem;
+  border: 0.3rem solid #000;
+  background-color: #fff;
+}
+
+.hold {
+  border: 0.5rem solid #333;
+}
+
+.hovered {
+  background-color: #333;
+  border: 0.5rem dashed #fff;
+}
